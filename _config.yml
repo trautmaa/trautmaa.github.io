@@ -1,0 +1,15 @@
+# Site Settings
+title: Alex Trautman
+email: alexjtrautman@gmail.com
+description: >
+  Getting started with Jekyll.
+baseurl: "/"
+url: "http://trautmaa.github.io"
+twitter_username: trautmaa
+github_username:  trautmaa
+# Build Settings
+sass:
+  sass_dir: _sass
+include: ['_pages']
+kramdown:
+  input: GFM
