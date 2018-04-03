@@ -29,7 +29,7 @@ var CAR_SPEED       = 10;
 
 window.onload = function() {
     document.getElementById("button").onclick = function fun() {
-        PED_SPEED = 100;
+        // restart animation with different settings
     }
 }
 

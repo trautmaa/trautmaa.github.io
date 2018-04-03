@@ -4,15 +4,10 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+I am a front-end developer excited about data visualization looking to use existing technologies to improve lives.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Most recently I have been building a website for my friend [Adam](https://trautmaa.github.io/shaukat/) and exploring animation with [regl](http://regl.party/). You can see more coding projects on my [Github](https://github.com/trautmaa).
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+In Winter of 2018 I taught the Backend Programming Bootcamp at [The New School of Atlanta](https://tnsatlanta.org/). You can see the sites students made here (link coming soon).
 
-
-[jekyll-organization]: https://github.com/jekyll
+Thank you to [Tania Rascia](https://www.taniarascia.com/) for her excellent tutorial on getting Github Pages up and running with Jekyll. Thanks also to [Joseph R. Tomelleri](http://www.americanfishes.com/) for the beautiful drawing of a Sheepheaven Redband Trout I referenced to create my footer logo.
