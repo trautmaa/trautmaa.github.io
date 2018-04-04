@@ -24,8 +24,6 @@ var MAX_SPEED       = 25;
 var POINT_SIZE      = 10;
 var POINT_COUNT     = 400;
 var X_START         = 100;
-var PED_SPEED       = 5;
-var CAR_SPEED       = 10;
 
 window.onload = function() {
     document.getElementById("button").onclick = function fun() {
