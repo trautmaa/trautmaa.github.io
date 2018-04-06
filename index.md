@@ -1,7 +1,5 @@
 ---
-layout: page
-title: About
-permalink: /about/
+layout: default
 ---
 
 I am a front-end developer excited about data visualization looking to use existing technologies to improve lives.

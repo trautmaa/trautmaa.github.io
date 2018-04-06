@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Flow
+title: 
 permalink: /flow/
 ---
 <div id='graph'></div>
