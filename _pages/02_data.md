@@ -1,6 +1,6 @@
 ---
 layout: blank
-title: Data
+title: 
 permalink: /data/
 ---
 Playing with [Jim Vallandingham](http://vallandingham.me/regl_intro.html)'s intro to REGL.
