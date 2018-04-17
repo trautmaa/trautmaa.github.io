@@ -3,6 +3,10 @@ layout: blank
 title: 
 permalink: /boost/
 ---
+<p>
+I'm pretty excited about this position, so I made your job easier. Let's talk more!
+</p>
+
 <div class="boost-container">
     <div class="boost-qualifications image"></div>
     <div class="boost-key image"></div>
@@ -39,6 +43,7 @@ permalink: /boost/
         background-size: 100%;
         background-repeat: no-repeat;
         opacity:1;
+        top:12px;
     }
     .boost-mask{
         background: url("/assets/boostmask.png");
