@@ -130,3 +130,28 @@ canvas {
 #button:hover {
 	cursor: pointer;
 }
+
+    /*************
+    ************** 
+    CSS Grid for Nature Scene ********************************************************************/
+
+.wrapper {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-template-rows: 80vh;
+	grid-gap: 10px;
+	@include breakpoint(xs) {
+		grid-template-columns: 90vw;
+		grid-template-rows: 80vh 80vh;
+	}		
+}
+.box-text {
+	overflow-y: scroll;
+}
+body.nature {
+	height:100%;
+	overflow:hidden;
+	@include breakpoint(xs) {
+		overflow:scroll;
+	}	
+}

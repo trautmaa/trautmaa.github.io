@@ -28,7 +28,7 @@ After graduating I wanted to put my interest in graphics and coding to use. I wo
 * **MySQL** The Ruby on Rails application managed and displayed somewhere around 100gb of data. I often accessed and managed it directly with MySQL. I actually really enjoy creating queries - something about the logic and strategy involved in getting exactly what you want.
 * **Bash** We had no backups of the database when I started! I wrote scripts to automatically *dump*, *compress*, and *upload* our database to **Amazon AWS** weekly. This worked like a charm; I'm really proud of figuring that one out.
 * **HTML / CSS** of course. Lots of practice creating pages from scratch, hacking apart Wordpress to do what I wanted, and crashing around within someone else's HTML and CSS.
-* **Bootstrap*
+* **Bootstrap**
 
 <h3>Outdoor Education</h3>
 <h4>Summer 2016 - Summer 2017</h4>
