@@ -13,3 +13,10 @@ sass:
 include: ['_pages']
 kramdown:
   input: GFM
+
+
+
+# Collections
+collections:
+  apps:
+    output: true

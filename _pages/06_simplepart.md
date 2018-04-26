@@ -10,7 +10,7 @@ permalink: /simplepart/
     Nature Scene ********************************************************************/
 
 
-    #Eruption, #Sunflare, #Rain, #Raincloud, #Snow, #Spring {
+    #Eruption, #Sunflare, #Rain, #Raincloud, #Snow, #Spring, #Atlanta {
         visibility: hidden;
     }
     #Home {
@@ -40,7 +40,6 @@ permalink: /simplepart/
     Other CSS ********************************************************************/
 
 
-
 </style>
 
 <div class="wrapper">
@@ -49,7 +48,8 @@ permalink: /simplepart/
     </div>
     <div class="box box-text">
         <div id="me-text" data-slug="Home">
-            <h3>Hello!</h3>
+            <p>Company info goes here</p>
+            <h2>Dear Recruiter,</h2>
             <p>
                 My name is Alex Trautman. I grew up outside of Boston, Massachusetts loving sports and the outdoors. I am a Front-End Developer, a teacher of Math and Computer Science, and a Wilderness Therapy Guide.
             </p>
@@ -66,7 +66,9 @@ permalink: /simplepart/
         </div>
         <div id="snow-text" data-slug="Snow">
             <br>
-            <h3>Minnesota</h3>
+            <h2>Minneapolis, Minnesota</h2>
+            <h3>2015 - 2016</h3>
+            <h4>Full Stack Web Development</h4>
             <p>
                 After graduating from school I found a position as a Front-End Developer at a small tech company in Minneapolis, Minnesota. The company is called FourCubed.
             </p>
@@ -93,7 +95,9 @@ permalink: /simplepart/
         </div>
         <div id="mountains-text" data-slug="Eruption">
             <br>
-            <h3>The Wilderness</h3>
+            <h2>Colorado and Vermont</h2>
+            <h3>2016 - 2017</h3>
+            <h4>Education, Wilderness and Therapy</h4>
             <p>
                 From September 2016 - September 2017 I spent around 120 days sleeping outside. I had the opportunity to work with teenagers at the highest and lowest points of their lives. In this period I learned how to prepare lessons and teach. I led my students over glorious Rocky Mountain passes, and I comforted them as they dealt with dehabilitating depression and past trauma.
             </p>
@@ -108,9 +112,11 @@ permalink: /simplepart/
             </p>
             <br>
         </div>
-        <div id="spring-text" data-slug="Spring">
+        <div id="spring-text" data-slug="Atlanta">
             <br>
-            <h3>Atlanta</h3>
+            <h2>Atlanta, Georgia</h2>
+            <h3>2017 - Present</h3>
+            <h4>Start-up, Education, Coffeehouse</h4>
             <p>
                 In July I moved to Atlanta with my partner, who is a first year medical student at Emory University. In the Fall I worked developing a startup concept as a Founder in Goodie Nation's Hack the Violence program. My concept won the accolade of "Most Innovative Chat Bot" at one of the program's hackathons.
             </p>
@@ -122,9 +128,9 @@ permalink: /simplepart/
             </p>
             <br>
         </div>
-        <div id="you-text" data-slug="Home">
+        <div id="you-text" data-slug="Spring">
             <br>
-            <h3>Simplepart</h3>
+            <h2>Simplepart</h2>
             <p>
                 I was interested in your company because of x, y, z...
             </p>
@@ -162,16 +168,9 @@ $('div.box-text').on('resize scroll', function() {
       if ( $(this).isMid() ) { // This 
         console.log(sceneSection);
         $(sceneSection).css({
-            // WebkitTransition : 'opacity 1s ease-in-out',
-            // MozTransition    : 'opacity 1s ease-in-out',
-            // MsTransition     : 'opacity 1s ease-in-out',
-            // OTransition      : 'opacity 1s ease-in-out',
-            // transition       : 'opacity 1s ease-in-out',
             transition : 'visibility 0s, opacity 0.5s linear',
-
             visibility       : 'visible',
             opacity          : 1
-
         });
       } else {
         $(sceneSection).css({
