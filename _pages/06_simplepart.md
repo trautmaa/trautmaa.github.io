@@ -10,8 +10,11 @@ permalink: /simplepart/
     Nature Scene ********************************************************************/
 
 
-    #Fish, #Eruption, #Sunflare, #Rain, #Raincloud, #Snow, #Spring {
-        display: none;
+    #Eruption, #Sunflare, #Rain, #Raincloud, #Snow, #Spring {
+        visibility: hidden;
+    }
+    #Home {
+        visibility: visible;
     }
     svg {
         max-height:73vh;
@@ -45,7 +48,7 @@ permalink: /simplepart/
         {% include natureScene.svg %}
     </div>
     <div class="box box-text">
-        <div id="me-text" data-slug="Me">
+        <div id="me-text" data-slug="Home">
             <h3>Hello!</h3>
             <p>
                 My name is Alex Trautman. I grew up outside of Boston, Massachusetts loving sports and the outdoors. I am a Front-End Developer, a teacher of Math and Computer Science, and a Wilderness Therapy Guide.
@@ -59,6 +62,7 @@ permalink: /simplepart/
             <p>
                 Let me tell you a quick story...
             </p>
+            <br>
         </div>
         <div id="snow-text" data-slug="Snow">
             <br>
@@ -97,7 +101,7 @@ permalink: /simplepart/
                 I spent the Fall semester learning the art of teaching through a professional residency in education at the High Mountain Institute in Leadville, CO. I planned trigonometry units and taught advanced algebra. I also co-led three expeditions (totaling around 6 weeks) in which we focused on backcountry skills and leadership techniques.
             </p>
             <p>
-                In the Spring I worked as a Wilderness Therapy Guide in Waitsfield, Vermont. We aided students with mental illness and troubled pasts as they worked through a challenging curriculum designed to help them overcome their circumstances. 
+                In the Spring I worked as a Wilderness Therapy Guide in Waitsfield, Vermont. My co-leader and I aided students with mental illness and troubled pasts as they worked through a challenging curriculum designed to help them overcome their circumstances. 
             </p>
             <p>
                 These experiences directed my growth as an educator and wilderness guide. More than anything they honed my patience and ability to empathize.
@@ -118,7 +122,7 @@ permalink: /simplepart/
             </p>
             <br>
         </div>
-        <div id="you-text" data-slug="You">
+        <div id="you-text" data-slug="Home">
             <br>
             <h3>Simplepart</h3>
             <p>
@@ -154,19 +158,27 @@ $('div.box-text').on('resize scroll', function() {
   $('.box-text div').each(function() {
       // Reveal / hide on fixed sidenav
       var slug = $(this).attr('data-slug');
-      var section = slug + "-text";
       var sceneSection = "#" + slug;
       if ( $(this).isMid() ) { // This 
+        console.log(sceneSection);
         $(sceneSection).css({
-            display: 'block',
-            WebkitTransition : 'opacity 1s ease-in-out',
-            MozTransition    : 'opacity 1s ease-in-out',
-            MsTransition     : 'opacity 1s ease-in-out',
-            OTransition      : 'opacity 1s ease-in-out',
-            transition       : 'opacity 1s ease-in-out'
+            // WebkitTransition : 'opacity 1s ease-in-out',
+            // MozTransition    : 'opacity 1s ease-in-out',
+            // MsTransition     : 'opacity 1s ease-in-out',
+            // OTransition      : 'opacity 1s ease-in-out',
+            // transition       : 'opacity 1s ease-in-out',
+            transition : 'visibility 0s, opacity 0.5s linear',
+
+            visibility       : 'visible',
+            opacity          : 1
+
         });
       } else {
-        $(sceneSection).css("display", "none");
+        $(sceneSection).css({
+            visibility : 'hidden',
+            opacity    : 0,
+            transition : 'visibility 0s, opacity 0.5s linear'
+        });
       }
   });
 
