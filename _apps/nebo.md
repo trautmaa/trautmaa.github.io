@@ -7,7 +7,7 @@ permalink: /nebo
 intro:     ""
 ---
 <p>
-    I am really excited to learn more about Nebo! I want to put my experience building interactive websites to work
+    I am really excited to learn more about Nebo! I want to put my experience building interactive websites to work.
 </p>
 <p>
     My goal is to keep learning. My <strong>ability to listen and advocate</strong> will help me effectively turn an Art Director's dream into interactive, clickable reality.
