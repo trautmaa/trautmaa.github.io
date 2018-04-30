@@ -1,7 +1,7 @@
 ---
 layout: nature-scene
 title: 
-permalink: /simplepart/
+permalink: /simplepart-backup/
 ---
 <style>
 
