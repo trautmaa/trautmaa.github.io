@@ -22,13 +22,15 @@ I majored in Computer Science at Carleton College. I loved the major for all the
 <h3>FourCubed</h3>
 <h4>Summer 2015 - Summer 2016</h4>
 After graduating I wanted to put my interest in graphics and coding to use. I worked for a small company called [FourCubed](http://multisite.preview.fourcubed.com/dev-fourcubed) in Minneapolis, MN. I had the privilege to work directly under an amazing mentor who always encouraged me to spend time learning how things worked.
-* **JavaScript**: Amazingly, in my liberal arts CS program I did not get exposed to JS. I could though tell you all about stacks, [merge sort](https://www.toptal.com/developers/sorting-algorithms) and [Turing Machines](https://en.wikipedia.org/wiki/Turing_machine). I spent many hours learning jQuery and Bootstrap. I also got to design and build the front end for a new web-application from the ground up. This involved [Roots](http://roots.netlify.com/), a static site generator (don't you love that website?), API calls, and learning about templating languages (we used [Jade AKA Pug](https://pugjs.org/api/getting-started.html))
-* **Photoshop**: I made a lot of buttons and ads enticing users to try their luck at online gambling.
-* **Ruby on Rails** I intermittently debugged our giant Rails application. I am not big on backend development.
-* **MySQL** The Ruby on Rails application managed and displayed somewhere around 100gb of data. I often accessed and managed it directly with MySQL. I actually really enjoy creating queries - something about the logic and strategy involved in getting exactly what you want.
-* **Bash** We had no backups of the database when I started! I wrote scripts to automatically *dump*, *compress*, and *upload* our database to **Amazon AWS** weekly. This worked like a charm; I'm really proud of figuring that one out.
-* **HTML / CSS** of course. Lots of practice creating pages from scratch, hacking apart Wordpress to do what I wanted, and crashing around within someone else's HTML and CSS.
+* **JavaScript** I worked with jQuery to make dynamic pages. I also worked to design and build a frontend for a new product. We used [Roots](http://roots.netlify.com/), and I setup API calls. I also learned about templating languages (we used [Pug](https://pugjs.org/api/getting-started.html))
+* **Photoshop** I created call-to-action buttons, ads
+* **Ruby on Rails** I helped to debug our large-scale Rails application
+* **MySQL** I gathered data for business reports
+* **Bash** I wrote scripts to automatically *dump*, *compress*, and *upload* our database to **Amazon AWS** weekly. This worked like a charm; I'm really proud of figuring that one out.
+* **HTML / CSS** Grid, Sass, following best practices.
+* **Wordpress** I wrote JavaScript and PHP to make our Wordpress site more flexible.
 * **Bootstrap**
+* **Google Analytics** I worked with our marketing team to track user flow and conversion.
 
 <h3>Outdoor Education</h3>
 <h4>Summer 2016 - Summer 2017</h4>

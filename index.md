@@ -8,4 +8,4 @@ Most recently I have been building a website for actor [Adam Shaukat](https://tr
 
 In Winter of 2018 I taught the Backend Programming Bootcamp at [The New School of Atlanta](https://tnsatlanta.org/). You can see the sites students made here (link coming soon).
 
-Thank you to [Tania Rascia](https://www.taniarascia.com/) for her excellent tutorial on getting Github Pages up and running with Jekyll. Thanks also to [Joseph R. Tomelleri](http://www.americanfishes.com/) for the beautiful drawing of a Sheepheaven Redband Trout I referenced to create my footer logo.
+Thank you to [Tania Rascia](https://www.taniarascia.com/) for her excellent blog. Thanks also to [Joseph R. Tomelleri](http://www.americanfishes.com/), whose drawings I referenced in creating the trout logo.
