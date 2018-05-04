@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "Visualization of Data from the Gun Violence Archive"
+date:   2018-05-02 11:38:56 -0400
+categories: coding
+---
+
+<style>
+canvas {
+    border:solid 1px;
+}
+</style>
+<canvas height="300" width="600" id="a"></canvas>
+<!-- <div id="graphic"></div> -->
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="/js/gva.js"></script>

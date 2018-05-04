@@ -8,6 +8,17 @@ Playing with [Jim Vallandingham](http://vallandingham.me/regl_intro.html)'s intr
 
 The points x and y values are mapped to cosine and sine functions, respectively. You can click the button below to change the period of the functions within a constrained range.
 
+<style>
+    canvas {
+        width: 70vw !important;
+        height: 70vh !important;
+        display: block !important;
+        margin: auto !important;
+        border: 1px solid #f00 !important;
+        position: inherit !important;
+    }
+</style>
+
 <div id="button">Change Period</div>
 <script language="javascript" src="https://npmcdn.com/regl/dist/regl.js"></script>
 <script src="/js/tri.js"></script>
