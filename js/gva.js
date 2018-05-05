@@ -16,7 +16,7 @@
 
 // draw points on canvas
 
-d3.csv("/assets/gva.csv", function(data) {
+d3.csv("/assets/gvamini.csv", function(data) {
 
     var height = 300;
     var width = 600;
