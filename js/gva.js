@@ -1,54 +1,73 @@
-// var troutSVG = d3.select("#troutSVG")
-//     .attr("width", 200);
+// Constants
+var height = 300;
+var width = 600;
 
+// Create svg
+var svg = d3.select("body")
+    .append("svg")
+    .attr("height", height)
+    .attr("width", width)
 
+// Load data
+d3.csv("/assets/gvaga.csv", function(data) {
 
-// function draw_b() {
-//     var b_canvas = document.getElementById("a");
-//     var context = b_canvas.getContext("2d");
-//     //context.fillRect(50, 25, 150, 100);
-//     var my_gradient = context.createRadialGradient(0, 0, 5, 100, 100, 50);
-//     my_gradient.addColorStop(0, "black");
-//     my_gradient.addColorStop(1, "white");
-//     context.fillStyle = my_gradient;
-//     context.fillRect(0, 0, 300, 225);
-//   }
-
-// draw points on canvas
-
-d3.csv("/assets/gvamini.csv", function(data) {
-
-    var height = 300;
-    var width = 600;
-
+    // Retrieve canvas 2d context
     var canvas = document.getElementById("a");
     var context = canvas.getContext("2d");
 
+    // Remove data points with missing latitude longitude values
+    var i = data.length;
+    while (i--) {
+        if ( isNaN( data[i].latitude) | isNaN( data[i].longitude) ) {
+            data.splice(i, 1);
+        } 
+    }
+    
+    // Convert strings to numbers.
+    data.forEach(function(d) {
+        d.latitude = +d.latitude;
+        d.longitude = +d.longitude;
+    });
+
+    // Get min and max latitude and longitude
+    var latExtent = d3.extent(data, function(d) { return d.latitude; } );
+    var longExtent = d3.extent(data, function(d) { return d.longitude; } );
+    var minLat = latExtent[0];
+    var maxLat = latExtent[1];
+    var minLong = longExtent[0];
+    var maxLong = longExtent[1];
+
+    // Create scales based on lowest and highest values of lat and long
     var latitudeScale = d3.scaleLinear()
-        .domain([23,50])
+        .domain([minLat,maxLat])
         .range([height,0]);
     var longitudeScale = d3.scaleLinear()
-        .domain([-130,-65])
+        .domain([minLong,maxLong])
         .range([0,width]);
 
-    var scaledData = [];
+    var i = data.length;
 
-    for (var i = 0; i < data.length; i++) {
+    // Iterate through data, scale and round lat and long
+    while (i--) {
 
         // Run latitude and longitude through linear scale and round
         var lat = Math.round( latitudeScale( data[i].latitude ) );
         var long = Math.round( longitudeScale( data[i].longitude ) );
+        data[i].latitude = lat;
+        data[i].longitude = long;
 
-        scaledData[i] = data[i];
-        scaledData[i].latitude = lat;
-        scaledData[i].longitude = long;
-        context.fillRect(scaledData[i].longitude, scaledData[i].latitude, 1, 1);
+        // Next line fills the canvas with these points
+        // context.fillRect(data[i].longitude, data[i].latitude, 1, 1);
+        
     }
 
-    console.log(scaledData);
-
-
-
+    // Draw circles for each datapoint
+    svg.selectAll("circle")
+        .data(data)
+        .enter().append("circle")
+            .attr("cx", function( d ) { return d.longitude; })
+            .attr("cy", function( d ) { return d.latitude; })
+            .attr("r", 0.5);
 
 });
 

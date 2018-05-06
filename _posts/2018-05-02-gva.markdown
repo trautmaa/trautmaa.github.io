@@ -6,9 +6,14 @@ categories: coding
 ---
 
 <style>
-canvas {
-    border:solid 1px;
-}
+    canvas {
+        border:solid 1px;
+    }
+    svg {
+        display:block;
+        margin:auto;
+        border:solid 1pt;
+    }
 </style>
 <canvas height="300" width="600" id="a"></canvas>
 <!-- <div id="graphic"></div> -->
