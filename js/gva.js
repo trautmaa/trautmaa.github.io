@@ -1,10 +1,12 @@
 // Constants
 var height = 300;
 var width = 600;
+var containerAspectRatio = width / height;
 
 // Create svg
 var svg = d3.select("body")
     .append("svg")
+    .attr("id", "map")
     .attr("height", height)
     .attr("width", width)
 
@@ -37,13 +39,45 @@ d3.csv("/assets/gvaga.csv", function(data) {
     var minLong = longExtent[0];
     var maxLong = longExtent[1];
 
-    // Create scales based on lowest and highest values of lat and long
-    var latitudeScale = d3.scaleLinear()
-        .domain([minLat,maxLat])
-        .range([height,0]);
-    var longitudeScale = d3.scaleLinear()
-        .domain([minLong,maxLong])
-        .range([0,width]);
+    // Get original aspect ratio of the data
+    var dataAspectRatio = (maxLong - minLong) / (maxLat - minLat)
+
+    // Determine whether data width or data height is constrained by svg bounds
+    // Determine which is greater- aspect ratio of svg box, or aspect ratio of data
+    // If data ratio is larger, then width is constrainer
+    // If data ratio is less, then height is contrainer
+    var heightConstrained = true;
+    if ( dataAspectRatio > containerAspectRatio ){
+        heightConstrained = false;
+    }
+
+    var scaleWidth;
+    var scaleHeight;
+    if ( heightConstrained ){
+        // Set width using data aspect ratio
+        scaleWidth = dataAspectRatio * height; 
+
+        // Define scales
+        var latitudeScale = d3.scaleLinear()
+            .domain([minLat,maxLat])
+            .range([height,0]);
+        var longitudeScale = d3.scaleLinear()
+            .domain([minLong,maxLong])
+            .range([0,scaleWidth]);
+
+    } else {
+        // Set height using data aspect ratio
+        scaleHeight = width / dataAspectRatio;
+
+        // Define scales
+        var latitudeScale = d3.scaleLinear()
+            .domain([minLat,maxLat])
+            .range([scaleHeight,0]);
+        var longitudeScale = d3.scaleLinear()
+            .domain([minLong,maxLong])
+            .range([0,width]);
+
+    }
 
     var i = data.length;
 

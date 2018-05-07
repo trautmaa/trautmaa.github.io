@@ -9,7 +9,7 @@ categories: coding
     canvas {
         border:solid 1px;
     }
-    svg {
+    svg#map {
         display:block;
         margin:auto;
         border:solid 1pt;
