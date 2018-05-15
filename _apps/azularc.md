@@ -5,6 +5,7 @@ contact:   "Azul Arc"
 position:  "Associate UX Designer / Product Manager"
 permalink: /azularc
 intro:     ""
+recipient: "Ms. Warthen"
 ---
 <p>
     I love that the Azul Arc website lauds its employees as good people; positive company culture is important to me. I also love to cook, so I think we might find some common ground regarding a love for good food.
