@@ -15,7 +15,7 @@ categories: coding
         border:solid 1pt;
     }
 </style>
-<canvas height="300" width="600" id="a"></canvas>
+<!-- <canvas height="300" width="600" id="a"></canvas> -->
 <!-- <div id="graphic"></div> -->
 <script src="https://d3js.org/d3.v4.min.js"></script>
 <script src="/js/gva.js"></script>

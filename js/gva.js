@@ -14,8 +14,8 @@ var svg = d3.select("body")
 d3.csv("/assets/gvaga.csv", function(data) {
 
     // Retrieve canvas 2d context
-    var canvas = document.getElementById("a");
-    var context = canvas.getContext("2d");
+    // var canvas = document.getElementById("a");
+    // var context = canvas.getContext("2d");
 
     // Remove data points with missing latitude longitude values
     var i = data.length;
