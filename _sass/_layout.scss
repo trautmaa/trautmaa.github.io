@@ -298,6 +298,17 @@ svg.trout {
     ************** 
 	Skills Page ********************************************************************/
 	
+	// When adding to the length of the list, change the modulo number in new_skills
+	// This will assign classes bg- for the appropriate number of colors
+	$colors: #FFC667, #55D2B6, #FFA167, #6191D4;
+
+
+@for $i from 1 through length($colors) {
+    .bg-#{$i} {
+        background: nth($colors, $i)
+    }
+}
+
 .skills-grid {
 	display: grid;
 	grid-template-columns: 33% 33% 33%;
@@ -309,5 +320,5 @@ svg.trout {
 }
 .skills-list-item {
 	text-align: center;
-	
+
 }

@@ -6,6 +6,21 @@
 
     - name: HTML
       description: blah blah blah
+
+    - name: CSS
+      description: blah blah blah
+
+    - name: Python
+      description: blah blah blah
+
+    - name: Bash
+      description: blah blah blah
+
+    - name: HTML
+      description: blah blah blah
+
+    - name: HTML
+      description: blah blah blah
 - name: FourCubed
   date: 2015 - 2016
   topics:
