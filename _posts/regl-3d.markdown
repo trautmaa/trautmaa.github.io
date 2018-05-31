@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "Fun with REGL"
-date:   2018-04-06 11:38:56 -0400
+title:  "REGL 3D"
+date:   2018-05-30 11:38:56 -0400
 categories: coding
 ---
-Playing with [Jim Vallandingham](http://vallandingham.me/regl_intro.html)'s intro to REGL.
+Modifying 3D 'particles' example from [regl.party](http://regl.party/examples)
 
-The points x and y values are mapped to cosine and sine functions, respectively. You can click the button below to change the period of the functions within a constrained range.
+
 
 <style>
     canvas {
@@ -21,4 +21,6 @@ The points x and y values are mapped to cosine and sine functions, respectively.
 
 <div id="button">Change Period</div>
 <script language="javascript" src="https://npmcdn.com/regl/dist/regl.min.js"></script>
-<script src="/js/regl-periods.js"></script>
+
+
+<script src="/js/regl-3d.js"></script>
