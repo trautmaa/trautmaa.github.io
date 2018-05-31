@@ -7,7 +7,7 @@ permalink: /newskills/
 <div>
 {% for location in site.data.skills %}
     <div class="location">
-        <h3>{{ location.name }}</h3>
+        <h2>{{ location.name }}</h2>
         <h4>{{ location.date }}</h4>
         <p>{{ location.text }}</p>
             <div class="skills-grid">

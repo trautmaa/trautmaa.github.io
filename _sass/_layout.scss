@@ -10,7 +10,7 @@ h1,
 h2,
 h3 {
 	font-weight: 600;
-	color: $heading-font-color;
+	color: $link-color;
 	font-family: $heading-font;
 	line-height: 1.5;
 }
@@ -335,5 +335,11 @@ svg.trout {
 	}
 	h3, p {
     	-webkit-margin-after: 0em;
+	}
+}
+.location {
+	-webkit-margin-after: 3em;
+	h2 {
+		font-size: 2em;
 	}
 }
