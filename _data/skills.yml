@@ -1,55 +1,127 @@
-- name: Carleton
+- name: Carleton College
   date: 2011 - 2015
+  text: >
+        At Carleton I focused on Computer Science and Studio Art, and
+        I worked for each department.
   topics:
-    - name: Photoshop
-      description: blah blah blah
-
-    - name: HTML
-      description: blah blah blah
-
-    - name: CSS
-      description: blah blah blah
-
     - name: Python
-      description: blah blah blah
+      description: >
+        Most of our courses were in Python. My first big project was a
+        <a href="https://github.com/trautmaa/Connect4">Connect4</a> game.
 
-    - name: Bash
-      description: blah blah blah
+    - name: Java
+      description: > 
+        I used Java to practice MVC structure during a software design course.
+        My group's final project was a
+        <a href="https://github.com/trautmaa/MusicalMadness">Music Game</a>
 
-    - name: HTML
-      description: blah blah blah
+    - name: C
+      description: >
+        We used C to build an interpreter for Scheme to better understand memory allocation and
+        management.
 
-    - name: HTML
-      description: blah blah blah
+    - name: Adobe Photoshop
+      description: >
+        Lynda tutorials and many hours on photography
+        <a href="https://www.flickr.com/photos/alextrautman/">projects</a>.
+
+    - name: Adobe Illustrator
+      description: >
+        I created a book of my photography.
+
+    - name: Bash / Unix
+      description: >
+        For the CS department I learned to script software updates and OS
+        installations.
+
+    - name: Graphic Design
+      description: >
+        I designed <a href="https://www.flickr.com/photos/alextrautman/albums/72157656970791344">
+        posters</a> to promote department events.
+
+    - name: UI Design
+      description: >
+        For my team's <a href="https://github.com/trautmaa/Task-Manager-Comps-2014-2015">
+        capstone project</a> I worked hard on our software's
+        <a href="https://www.flickr.com/photos/alextrautman/21656086360/in/album-72157656970791344/">
+        GUI</a>.
+
 - name: FourCubed
   date: 2015 - 2016
+  text: >
+    After graduating I wanted to put my interest in graphics and coding to
+    use. I worked for a small company called FourCubed in Minneapolis, MN.
+    I had the privilege to work directly under an amazing mentor who always
+    encouraged me to spend time learning how things worked.
   topics:
-    - name: CSS
-      description: blah blah blah
+    - name: JavaScript
+      description: >
+        I built interactive web pages with content dynamically loaded
+        via an API from our backend.
 
-    - name: BASH
-      description: blah blah blah
-- name: Outdoor Education
-  date: 2015 - 2016
+    - name: Photoshop
+      description: Practice creating call-to-action buttons and advertisements.
+
+    - name: Ruby on Rails
+      description: I helped debug our Rails application.
+
+    - name: MySQL
+      description: Gathered data for business reports and created / maintained tables.
+
+    - name: Bash
+      description: >
+        Wrote cron jobs to dump and compress our ~60gb database then upload
+        to Amazon S3.
+
+    - name: HTML / CSS
+      description: Grid, Sass, Bootstrap, learning and following best practices.
+
+    - name: Worpress
+      description: >
+        Updated company website and created landing pages, utilizing PHP and 
+        JavaScript for more flexibility.
+
+    - name: Google Analytics
+      description: >
+        Setup tags for our marketing team to track email campaign effectiveness.
+
+- name: Math Teacher, Backcountry Instructor, Wilderness Therapy Guide
+  date: 2016 - 2017
+  text: >
+    I spent the fall semester in a professional residency teaching program at the
+    <a href="http://www.hminet.org">High Mountain Institute</a> in Leadville, CO.
+    The spring and summer I worked as a Wilderness Therapy Guide at
+    <a href="http://truenorthwilderness.com/">True North Wilderness Programs</a> in Vermont.
   topics:
-    - name: CSS
-      description: blah blah blah
+    - name: WFR
+      description: 80 hour Wilderness First Responder course. Includes CPR / AED certification.
 
-    - name: BASH
-      description: blah blah blah
-- name: Atlanta
-  date: 2015 - 2016
+    - name: CPI
+      description: Crisis Prevention and Intervention certification in safe management of aggravated individuals.
+
+- name: Founder at Goodie Nation Pre-Accelerator
+  date: Fall 2017
+  text: >
+    I worked with the Goodie Nation team to develop an app that would build
+    emotional intelligence in young boys. I designed the basic user flow and
+    created a demo <a href="https://invis.io/CBEIANM3D">here</a>.
   topics:
-    - name: CSS
-      description: blah blah blah
+    - name: Sketch / InVision
+      description: Coursework at General Assembly and practice on my Goodie app.
+    - name: User Research
+      description: I conducted interviews of parents and their sons to determine how this app might best help them.
 
-    - name: BASH
-      description: blah blah blah
+- name: Instructor of The New School of Atlanta Backend Bootcamp
+  date: Winter 2018
+  text: >
+    I taught a 6-week crash course in website design. We covered
+    HTML, CSS / Bootstrap, and some JavaScript / jQuery. Students culminated the experience
+    building websites for local businesses.
+
 - name: Future
-  date: 2015 - 2016
-  topics:
-    - name: CSS
-      description: blah blah blah
-
-    - name: BASH
-      description: blah blah blah
+  date: 
+  text: >
+    In my free time I am working to learn more data visualization tools like Three.js, ReGL,
+    <a href="https://d3js.org/">D3</a>
+    and Uber's <a href="https://uber.github.io/deck.gl/#/">Deck.gl</a>. I'm really excited by
+    <a href="https://twitter.com/adamrpearce">Adam Pearce</a>'s work in The New York Times. 

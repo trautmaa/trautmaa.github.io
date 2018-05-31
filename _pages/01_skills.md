@@ -35,7 +35,7 @@ After graduating I wanted to put my interest in graphics and coding to use. I wo
 
 <h3>Outdoor Education</h3>
 <h4>Summer 2016 - Summer 2017</h4>
-I spent this fall in a [professional residency program](http://www.hminet.org) for traditional and outdoor education in Leadville, CO. The spring I summer I worked as a [wilderness therapy guide](http://truenorthwilderness.com/) in northern Vermont.
+I spent this fall in a [professional residency program](http://www.hminet.org) for traditional and outdoor education in Leadville, CO. The spring and summer I worked as a [wilderness therapy guide](http://truenorthwilderness.com/) in northern Vermont.
 * **Wilderness First Responder** / **CPR** / **AED**
 * Trained in **Nonviolent Crisis Intervention** through [CPI](https://www.crisisprevention.com/Specialties/Nonviolent-Crisis-Intervention)
 
