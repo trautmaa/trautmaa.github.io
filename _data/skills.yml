@@ -1,0 +1,40 @@
+- name: Carleton
+  date: 2011 - 2015
+  topics:
+    - name: Photoshop
+      description: blah blah blah
+
+    - name: HTML
+      description: blah blah blah
+- name: FourCubed
+  date: 2015 - 2016
+  topics:
+    - name: CSS
+      description: blah blah blah
+
+    - name: BASH
+      description: blah blah blah
+- name: Outdoor Education
+  date: 2015 - 2016
+  topics:
+    - name: CSS
+      description: blah blah blah
+
+    - name: BASH
+      description: blah blah blah
+- name: Atlanta
+  date: 2015 - 2016
+  topics:
+    - name: CSS
+      description: blah blah blah
+
+    - name: BASH
+      description: blah blah blah
+- name: Future
+  date: 2015 - 2016
+  topics:
+    - name: CSS
+      description: blah blah blah
+
+    - name: BASH
+      description: blah blah blah

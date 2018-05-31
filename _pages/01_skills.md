@@ -3,6 +3,7 @@ layout: page
 title: Skills
 permalink: /skills/
 ---
+
 [Github](https://github.com/trautmaa), [Flickr](https://www.flickr.com/photos/alextrautman/)
 
 I love learning new technologies. I am **currently excited to work with:** D3.js, Three.js, regl, Deck.gl.

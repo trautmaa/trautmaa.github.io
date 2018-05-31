@@ -291,5 +291,23 @@ svg.trout {
 }
 .grid {
 	display: grid;
-    grid-template-columns: 50% 50%;
+	grid-template-columns: 50% 50%;
+}
+
+    /*************
+    ************** 
+	Skills Page ********************************************************************/
+	
+.skills-grid {
+	display: grid;
+	grid-template-columns: 33% 33% 33%;
+	grid-auto-rows: 30vh;
+	grid-gap: 10px;
+	@include breakpoint(xs) {
+		grid-template-columns: 90vw;
+	}		
+}
+.skills-list-item {
+	text-align: center;
+	
 }

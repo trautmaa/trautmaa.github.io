@@ -16,6 +16,8 @@ kramdown:
 
 
 # Collections
+collections_dir: collections
 collections:
   apps:
     output: true
+
