@@ -300,7 +300,7 @@ svg.trout {
 	
 	// When adding to the length of the list, change the modulo number in new_skills
 	// This will assign classes bg- for the appropriate number of colors
-	$colors: #86ED60, #55D2B6, #7868D8, #9B8FE8, #6191D4;
+	$colors: #86ED60, #55D2B6, #9383f0,#7CBCEA;
 
 
 @for $i from 1 through length($colors) {
@@ -312,7 +312,7 @@ svg.trout {
 .skills-grid {
 	display: grid;
 	grid-template-columns: 33% 33% 33%;
-	grid-auto-rows: 175px;
+	grid-auto-rows: 160px;
 	grid-gap: 10px;
 	@include breakpoint(xs) {
 		grid-template-columns: 90vw;
@@ -320,7 +320,7 @@ svg.trout {
 }
 .skills-list-item {
 	text-align: center;
-	border-radius: 7px;
+	border-radius: 45px;
 	color: $light;
 	h3 {
 		color: $light;

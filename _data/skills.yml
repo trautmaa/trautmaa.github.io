@@ -11,7 +11,7 @@
 
     - name: Java
       description: > 
-        I used Java to practice MVC structure during a software design course.
+        Practicing MVC during a software design course.
         My group's final project was a
         <a href="https://github.com/trautmaa/MusicalMadness">Music Game</a>
 
@@ -121,7 +121,12 @@
 - name: Future
   date: 
   text: >
-    In my free time I am working to learn more data visualization tools like Three.js, ReGL,
-    <a href="https://d3js.org/">D3</a>
+    In my free time I am working to learn more data visualization tools.
+    
     and Uber's <a href="https://uber.github.io/deck.gl/#/">Deck.gl</a>. I'm really excited by
     <a href="https://twitter.com/adamrpearce">Adam Pearce</a>'s work in The New York Times. 
+  topics:
+    - name: D3.js
+      description: Learn more about <a href="https://d3js.org/">D3</a>
+    - name: REGL
+      description: Learn more about <a href="http://regl.party/">REGL</a>
