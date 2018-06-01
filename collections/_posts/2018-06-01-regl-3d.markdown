@@ -19,7 +19,8 @@ Modifying 3D 'particles' example from [regl.party](http://regl.party/examples)
     }
 </style>
 
-<div id="button">Change Period</div>
+<div id="changePeriod" class="button">Change Period</div>
+<div id="regroup" class="button">Regroup Points</div>
 <script language="javascript" src="https://npmcdn.com/regl/dist/regl.min.js"></script>
 
 

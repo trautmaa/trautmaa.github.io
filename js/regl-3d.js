@@ -23,7 +23,9 @@ function createData(dataCount) {
             y: Y_START,
             variance: randomFromRange(0, MAX_VARIANCE),
             periodx: 1,
-            periody: 1
+            periody: 1,
+            needsreset: false,
+            tickreset: 0
         };
         data.push(datum);
     }
@@ -32,8 +34,16 @@ function createData(dataCount) {
 
 function updateData(data, tick) {
   data.forEach(function(datum) {
-        datum.x = Math.cos(tick / (datum.periodx * 25 + datum.variance));
-        datum.y = Math.sin(tick / (datum.periody * 25 + datum.variance));
+
+        // Set tickreset to current tick: send point back to zero
+        if ( datum.needsreset ){
+          datum.tickreset = tick;
+          datum.needsreset = false;
+        }
+        
+        // Set point coordinates
+        datum.x = Math.cos( (tick - datum.tickreset) / (datum.periodx * 25 + datum.variance));
+        datum.y = Math.sin( (tick - datum.tickreset) / (datum.periody * 25 + datum.variance));
     })
 }
 
@@ -96,7 +106,7 @@ const drawDots = regl({
 var points = createData(POINT_COUNT);
 
 // Change period on button click
-document.getElementById("button").onclick = function(){
+document.getElementById("changePeriod").onclick = function(){
   var xTweak = randomFromRange(1,3);
   var yTweak = randomFromRange(1,3);
   points.forEach(function(datum) {
@@ -105,13 +115,22 @@ document.getElementById("button").onclick = function(){
   })
 }
 
+// Regroup points
+document.getElementById("regroup").onclick = function( context ){
+  points.forEach(function(datum) {
+    datum.needsreset = true; // Set reset flag
+  })
+}
 
-regl.frame(function(context) {
+regl.frame(function( context ) {
+
   updateData(points, context.tick);
+
   drawDots({
     color: [0.208, 0.304, 1.000, 1.000],
     // @change: Pass in the pointWidth prop
     pointWidth: POINT_SIZE,
     points: points
   });
+  
 });
