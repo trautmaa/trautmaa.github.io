@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "REGL 3D"
+title:  "Fun with REGL"
 date:   2018-05-30 11:38:56 -0400
 categories: coding
 ---
