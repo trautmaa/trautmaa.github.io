@@ -21,3 +21,11 @@ collections:
   apps:
     output: true
 
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      publish: "true"
+
