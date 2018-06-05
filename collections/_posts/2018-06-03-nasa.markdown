@@ -1,10 +1,31 @@
 ---
 layout: post
-title:  "d3 too"
+title:  "NASA Astronauts"
 date:   2018-06-03 11:38:56 -0400
 categories: coding
-publish: false
+publish: true
+description: A D3.js project inspired by Scott Kelly's recent book <i>Endurance</i>
+img-src: "/assets/nasa-post.png"
 ---
 
 <script src="https://d3js.org/d3.v4.min.js"></script>
 <script src="/js/nasa.js"></script>
+  <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.24.0/d3-legend.js"></script>
+
+<p>
+Work in progress. I started this project after reading Scott Kelly's <i>Endurance</i> in order to improve my D3 skills.
+</p>
+<p>
+Hover to see astronaut name and exact number of hours in space.
+</p>
+
+<style>
+    /* rect{
+        fill: #3871C3;
+    }
+    rect:hover{
+        fill: #32C2A2;
+        cursor: pointer;
+    } */
+</style>
