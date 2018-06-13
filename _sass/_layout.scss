@@ -2,9 +2,12 @@ body {
 	margin: 0;
 	color: $font-color;
 	font-family: $font-style;
-	font-size: 1.1em;
+	font-size: 1em;
 	line-height: 1.6;
 	-webkit-font-smoothing: antialiased;
+	a {
+	text-decoration: none;
+	}
 }
 h1,
 h2,
@@ -312,7 +315,7 @@ svg.trout {
 .skills-grid {
 	display: grid;
 	grid-template-columns: 33% 33% 33%;
-	grid-auto-rows: 160px;
+	grid-auto-rows: 145px;
 	grid-gap: 10px;
 	@include breakpoint(xs) {
 		grid-template-columns: 90vw;
@@ -325,20 +328,20 @@ svg.trout {
 	h3 {
 		color: $light;
 		font-size: 1.5em;
-		-webkit-margin-before: 0.7em;
+		margin-top: 0.7em;
 	}
 	p {
-		-webkit-margin-before: 0.2em;
+		margin-top: 0.2em;
 		font-size: 0.9em;
 		margin-left: .5em;
 		margin-right: .5em;
 	}
 	h3, p {
-    	-webkit-margin-after: 0em;
+    	margin-bottom: 0em;
 	}
 }
 .location {
-	-webkit-margin-after: 3em;
+	margin-bottom: 3em;
 	h2 {
 		font-size: 2em;
 	}
@@ -360,3 +363,16 @@ svg.trout {
 		display: block;
 	}
 }
+
+// Fonts
+.font-patrick {
+    font-family: 'Patrick Hand SC', cursive;
+    text-transform: capitalize;
+}
+.font-hand {
+    font-family: 'Just Another Hand', cursive;
+}
+.signature {
+	font-size: 2em;
+}
+

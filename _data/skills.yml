@@ -7,13 +7,13 @@
     - name: Python
       description: >
         Most of our courses were in Python. My first big project was a
-        <a href="https://github.com/trautmaa/Connect4">Connect4</a> game.
+        <a href="https://github.com/trautmaa/Connect4" target="_blank">Connect4</a> game.
 
     - name: Java
       description: > 
         Practicing MVC during a software design course.
         My group's final project was a
-        <a href="https://github.com/trautmaa/MusicalMadness">Music Game</a>
+        <a href="https://github.com/trautmaa/MusicalMadness" target="_blank">Music Game</a>
 
     - name: C
       description: >
@@ -23,7 +23,7 @@
     - name: Adobe Photoshop
       description: >
         Lynda tutorials and many hours on photography
-        <a href="https://www.flickr.com/photos/alextrautman/">projects</a>.
+        <a href="https://www.flickr.com/photos/alextrautman/" target="_blank">projects</a>.
 
     - name: Adobe Illustrator
       description: >
@@ -36,14 +36,14 @@
 
     - name: Graphic Design
       description: >
-        I designed <a href="https://www.flickr.com/photos/alextrautman/albums/72157656970791344">
+        I designed <a href="https://www.flickr.com/photos/alextrautman/albums/72157656970791344" target="_blank">
         posters</a> to promote department events.
 
     - name: UI Design
       description: >
-        For my team's <a href="https://github.com/trautmaa/Task-Manager-Comps-2014-2015">
+        For my team's <a href="https://github.com/trautmaa/Task-Manager-Comps-2014-2015" target="_blank">
         capstone project</a> I worked hard on our software's
-        <a href="https://www.flickr.com/photos/alextrautman/21656086360/in/album-72157656970791344/">
+        <a href="https://www.flickr.com/photos/alextrautman/21656086360/in/album-72157656970791344/" target="_blank">
         GUI</a>.
 
 - name: FourCubed
@@ -89,9 +89,9 @@
   date: 2016 - 2017
   text: >
     I spent the fall semester in a professional residency teaching program at the
-    <a href="http://www.hminet.org">High Mountain Institute</a> in Leadville, CO.
+    <a href="http://www.hminet.org" target="_blank">High Mountain Institute</a> in Leadville, CO.
     The spring and summer I worked as a Wilderness Therapy Guide at
-    <a href="http://truenorthwilderness.com/">True North Wilderness Programs</a> in Vermont.
+    <a href="http://truenorthwilderness.com/" target="_blank">True North Wilderness Programs</a> in Vermont.
   topics:
     - name: WFR
       description: 80 hour Wilderness First Responder course. Includes CPR / AED certification.
@@ -104,10 +104,10 @@
   text: >
     I worked with the Goodie Nation team to develop an app that would build
     emotional intelligence in young boys. I designed the basic user flow and
-    created a demo <a href="https://invis.io/CBEIANM3D">here</a>.
+    created a demo <a href="https://invis.io/CBEIANM3D" target="_blank">here</a>.
   topics:
     - name: Sketch / InVision
-      description: Coursework at General Assembly and practice on my Goodie app.
+      description: Coursework at General Assembly and practice on my Goodie <a href="https://invis.io/CBEIANM3D" target="_blank">app</a>.
     - name: User Research
       description: I conducted interviews of parents and their sons to determine how this app might best help them.
 
@@ -122,11 +122,11 @@
   date: 
   text: >
     In my free time I am working to learn more data visualization tools.
-    
-    and Uber's <a href="https://uber.github.io/deck.gl/#/">Deck.gl</a>. I'm really excited by
+    I'm really excited by
     <a href="https://twitter.com/adamrpearce">Adam Pearce</a>'s work in The New York Times. 
+    See my <a href="/blog">blog</a> for my most recent work with these tools.
   topics:
     - name: D3.js
-      description: Learn more about <a href="https://d3js.org/">D3</a>
+      description: Learn more about <a href="https://d3js.org/" target="_blank">D3</a>
     - name: REGL
-      description: Learn more about <a href="http://regl.party/">REGL</a>
+      description: Learn more about <a href="http://regl.party/" target="_blank">REGL</a>

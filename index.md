@@ -13,7 +13,7 @@ In Winter of 2018 I taught the Backend Programming Bootcamp at [The New School o
 <!-- Begin blog block -->
 
 <div class="blog-block">
-<h3>Latest Blog Post:</h3>
+<h3>Latest Project:</h3>
 <div class="grid">
 {% for post in site.posts %}
 {% if post.publish %}
