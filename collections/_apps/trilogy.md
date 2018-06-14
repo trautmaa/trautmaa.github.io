@@ -3,7 +3,7 @@ layout:    jobfirst
 title:     "Trilogy"
 contact:   "Trilogy"
 position:  "Central Support Tutor: Web Development & Data Visualization"
-permalink: /trilogy
+permalink: /trilogy/
 intro:     ""
 recipient: "Trilogy Recruiter"
 ---
