@@ -24,9 +24,13 @@ recipient: "Techstars Recruiter"
 </p>
 <h3 class="font-marker">I have the soft skills:</h3>
 <p>
-	Last year I taught math, guided teenagers on wilderness trips, and supported teenagers in therapy. I have the patience and empathy to nurture the most manic founders.
+	I am patient and empathetic by nature, and I have honed those skills in my work experiences guiding teenagers in the wilderness (ask me about those!).
 </p>
-<h3 class="font-marker">What does my work look like?</h3>
+<h3 class="font-marker">I am self motivated:</h3>
+<p>
+	Ask me about how I made this page, and check out the rest of my website to see what else I have been working on. 
+</p>
+<h3 class="font-marker">Work examples:</h3>
 <p>
 	Check out my work with Goodie Nation <a href="https://docs.google.com/presentation/d/1yd2CGd93E05lbVKEfneiz-LpwQCIdEjGjQbC-V-itCs/present?token=AC4w5VjlRodpdnc1pvkSwI4Lg4uwqTkvAQ%3A1528909581694&includes_info_params=1#slide=id.g2ca8568536_0_0" target="_blank">here</a> and <a href="https://invis.io/CBEIANM3D" target="_blank">here</a>.
 </p>
