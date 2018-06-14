@@ -292,6 +292,9 @@ svg.trout {
 .text-center {
 	text-align:center;
 }
+.margin-auto {
+	margin:auto;
+}
 .grid {
 	display: grid;
 	grid-template-columns: 50% 50%;
@@ -310,9 +313,12 @@ svg.trout {
     .bg-#{$i} {
         background: nth($colors, $i)
     }
+    .fill-#{$i} {
+        fill: nth($colors, $i)
+    }
 }
 
-.skills-grid {
+.skills-grid{
 	display: grid;
 	grid-template-columns: 33% 33% 33%;
 	grid-auto-rows: 145px;
@@ -372,7 +378,14 @@ svg.trout {
 .font-hand {
     font-family: 'Just Another Hand', cursive;
 }
+.font-marker{
+	font-family: 'Permanent Marker', cursive;
+}
 .signature {
 	font-size: 2em;
 }
 
+.icon {
+	height: 75px;
+	width: 75px;
+}

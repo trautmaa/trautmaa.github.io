@@ -9,11 +9,15 @@ permalink: /contact/
 </div>
 <br>
 <div class="grid">
-    <div class="text-center">
-        <a id="button" href="https://www.linkedin.com/in/alextrautman/">LinkedIn</a>
+    <div class="margin-auto icon">
+        <a href="https://www.linkedin.com/in/alextrautman/" target="_blank">    
+ 			{% include linkedin.svg %}
+  		</a>
     </div>
-    <div class="text-center">
-        <a id="button" href="mailto:alexjtrautman@gmail.com?Subject=Hello">Email</a>
+    <div class="margin-auto icon">
+        <a href="mailto:alexjtrautman@gmail.com?Subject=Hello">
+ 			{% include mail.svg %}
+		</a>
     </div>
 </div>
 

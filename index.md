@@ -2,7 +2,7 @@
 layout: default
 ---
 
-I am a front-end developer excited about data visualization looking to use existing technologies to improve lives.
+I am a front-end developer based in Atlanta, GA. I am excited about website development and design, education, and any technology that makes life better.
 
 Most recently I have been building a website for actor [Adam Shaukat](https://trautmaa.github.io/shaukat/) and exploring animation with [regl](http://regl.party/). You can see more coding projects on my [Github](https://github.com/trautmaa).
 
