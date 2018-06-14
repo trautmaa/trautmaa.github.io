@@ -3,7 +3,7 @@ layout:    app
 title:     "Cardlytics"
 contact:   "Cardlytics"
 position:  "UI / UX Intern"
-permalink: /cardlytics
+permalink: /cardlytics/
 ---
 <p>
     I am really excited about Cardlytics! I want to learn more about working with big data: specifically, helping people better understand it through visualizations. I am just starting to explore libraries like D3.js and REGL that are poised to bridge gaps in understanding Cardlytics' vast stores of data.

@@ -3,7 +3,7 @@ layout:    app
 title:     "DragonArmy"
 contact:   "DragonArmy"
 position:  "Front End Developer"
-permalink: /dragonarmy
+permalink: /dragonarmy/
 intro:     ""
 ---
 <p>

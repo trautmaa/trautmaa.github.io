@@ -3,7 +3,7 @@ layout:    app
 title:     "Nebo"
 contact:   "Nebo"
 position:  "Interactive Designer"
-permalink: /nebo
+permalink: /nebo/
 intro:     ""
 ---
 <p>

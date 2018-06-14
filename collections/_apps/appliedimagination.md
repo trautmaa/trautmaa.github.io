@@ -3,7 +3,7 @@ layout:    app
 title:     "Applied Imagination"
 contact:   "Applied Imagination"
 position:  "Web and Graphic Designer"
-permalink: /appliedimagination
+permalink: /appliedimagination/
 intro:     ""
 recipient: "Graphics Hiring Coordinator"
 ---

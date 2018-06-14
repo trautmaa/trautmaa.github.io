@@ -3,7 +3,7 @@ layout:    app
 title:     "Azul Arc"
 contact:   "Azul Arc"
 position:  "Associate UX Designer / Product Manager"
-permalink: /azularc
+permalink: /azularc/
 intro:     ""
 recipient: "Ms. Warthen"
 ---

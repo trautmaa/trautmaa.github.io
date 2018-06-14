@@ -3,7 +3,7 @@ layout:    app
 title:     
 contact:   ""
 position:  "Design Associate"
-permalink: /mystory
+permalink: /mystory/
 intro:     ""
 recipient: "Future Employer"
 ---

@@ -3,7 +3,7 @@ layout:    app
 title:     "Mailchimp"
 contact:   ""
 position:  "Product Designer"
-permalink: /mailchimp
+permalink: /mailchimp/
 intro:     ""
 recipient: "Talent Scout"
 ---

@@ -3,7 +3,7 @@ layout:    app
 title:     "Springbot"
 contact:   "Springbot"
 position:  "Brand & Web Specialist, UI/UX"
-permalink: /springbot
+permalink: /springbot/
 intro:     ""
 ---
 <p>

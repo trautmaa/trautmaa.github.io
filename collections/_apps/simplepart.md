@@ -3,7 +3,7 @@ layout:    app
 title:     "SimplePart"
 contact:   "SimplePart"
 position:  "Digital Designer"
-permalink: /simplepart
+permalink: /simplepart/
 intro:     "A specific web page I admire is GitHub's 404 page. They turn a frustrating mishap into a fun, interactive excuse to learn about parallax! Now, on to the cover letter..."
 ---
 <p>

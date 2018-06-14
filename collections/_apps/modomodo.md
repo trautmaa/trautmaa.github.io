@@ -3,7 +3,7 @@ layout:    app
 title:     "Modo Modo"
 contact:   "Modo Modo"
 position:  "Front End Developer"
-permalink: /modomodo
+permalink: /modomodo/
 intro:     ""
 ---
 <p>

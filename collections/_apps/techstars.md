@@ -3,7 +3,7 @@ layout:    jobfirst
 title:     "Techstars"
 contact:   "Techstars"
 position:  "Design Associate"
-permalink: /techstars
+permalink: /techstars/
 intro:     ""
 recipient: "Techstars Recruiter"
 ---
