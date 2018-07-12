@@ -10,7 +10,7 @@
         <a href="https://github.com/trautmaa/Connect4" target="_blank">Connect4</a> game.
 
     - name: Java
-      description: > 
+      description: >
         Practicing MVC during a software design course.
         My group's final project was a
         <a href="https://github.com/trautmaa/MusicalMadness" target="_blank">Music Game</a>
@@ -76,9 +76,9 @@
     - name: HTML / CSS
       description: Grid, Sass, Bootstrap, learning and following best practices.
 
-    - name: Worpress
+    - name: Wordpress
       description: >
-        Updated company website and created landing pages, utilizing PHP and 
+        Updated company website and created landing pages, utilizing PHP and
         JavaScript for more flexibility.
 
     - name: Google Analytics
@@ -119,11 +119,11 @@
     building websites for local businesses.
 
 - name: Future
-  date: 
+  date:
   text: >
     In my free time I am working to learn more data visualization tools.
     I'm really excited by
-    <a href="https://twitter.com/adamrpearce">Adam Pearce</a>'s work in The New York Times. 
+    <a href="https://twitter.com/adamrpearce">Adam Pearce</a>'s work in The New York Times.
     See my <a href="/blog">blog</a> for my most recent work with these tools.
   topics:
     - name: D3.js

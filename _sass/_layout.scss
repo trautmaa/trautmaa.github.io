@@ -112,7 +112,7 @@ footer {
 	padding: 40px;
 }
 #button, .button{
-	background-color: $link-color; 
+	background-color: $link-color;
 	border: none;
 	color: $light;
 	padding: 15px 32px;
@@ -127,7 +127,7 @@ footer {
 }
 
     /*************
-    ************** 
+    **************
     CSS Grid for Nature Scene ********************************************************************/
 
 .wrapper {
@@ -138,7 +138,7 @@ footer {
 	@include breakpoint(xs) {
 		grid-template-columns: 90vw;
 		grid-template-rows: 80vh 80vh;
-	}		
+	}
 }
 .box-text {
 	overflow-y: scroll;
@@ -148,7 +148,7 @@ body.nature {
 	overflow:hidden;
 	@include breakpoint(xs) {
 		overflow:scroll;
-	}	
+	}
 }
 
 .no-scrollbar-parent{
@@ -166,7 +166,7 @@ body.nature {
 }
 
     /*************
-    ************** 
+    **************
     Trout Animation ********************************************************************/
 
 svg.trout {
@@ -287,7 +287,7 @@ svg.trout {
 #Spot10 path{ animation: spot10 5s infinite; }
 
     /*************
-    ************** 
+    **************
     CSS Helpers ********************************************************************/
 .text-center {
 	text-align:center;
@@ -301,9 +301,9 @@ svg.trout {
 }
 
     /*************
-    ************** 
+    **************
 	Skills Page ********************************************************************/
-	
+
 	// When adding to the length of the list, change the modulo number in new_skills
 	// This will assign classes bg- for the appropriate number of colors
 	$colors: #86ED60, #55D2B6, #9383f0,#7CBCEA;
@@ -325,7 +325,7 @@ svg.trout {
 	grid-gap: 10px;
 	@include breakpoint(xs) {
 		grid-template-columns: 90vw;
-	}		
+	}
 }
 .skills-list-item {
 	text-align: center;
@@ -388,4 +388,15 @@ svg.trout {
 .icon {
 	height: 75px;
 	width: 75px;
+}
+
+.Skills ul li {
+	color: $link-color;
+	padding-bottom: 1em;
+	span {
+		color: black;
+		b {
+			color: $link-color;
+		}
+	}
 }
