@@ -197,7 +197,7 @@ svg.trout {
 }
 
 #Top_Fin {
-    animation: topfin 2s linear infinite;
+    // animation: topfin 2s linear infinite;
 }
 
 @keyframes forearm {
@@ -212,7 +212,7 @@ svg.trout {
 }
 
 #Forearm {
-    animation: forearm 2s ease infinite;
+    // animation: forearm 2s ease infinite;
 }
 
 @keyframes spot1 {
@@ -367,6 +367,7 @@ svg.trout {
 		height: 150px;
 		margin: auto;
 		display: block;
+		max-width: 75%;
 	}
 }
 
