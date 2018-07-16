@@ -3,3 +3,4 @@ _site
 .jekyll-metadata
 assets/gva.csv
 .DS_Store
+ignored_assets

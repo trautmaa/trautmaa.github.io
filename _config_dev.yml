@@ -21,6 +21,8 @@ collections_dir: collections
 collections:
   apps:
     output: true
+  sections:
+    output: false
 
 # Defaults
 defaults:

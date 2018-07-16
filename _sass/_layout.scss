@@ -40,13 +40,8 @@ a:hover {
 	text-decoration: underline;
 }
 header {
-	background: $header;
-	padding: 0px 15px;
-	text-align: center;
-	margin: 50px 0 0;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+	padding: 100px 115px;
+	// display: flex;
 }
 main {
 	padding: 0 15px;
@@ -400,4 +395,77 @@ svg.trout {
 			color: $link-color;
 		}
 	}
+}
+
+.homebody{
+	header{
+		height: 100vh;
+		max-width: 777px;
+		padding: 120px;
+		@include breakpoint(xs) {
+			padding: 10px 10px;
+		}
+	}
+	h1, h2, h3{
+		font-size:1.5em;
+		font-weight: 400;
+	}
+	h2{}
+	h3{}
+	section{
+		min-height: 77vh;
+	}
+	div.section-title{
+		color: $link-color;
+		text-transform: uppercase;
+		font-weight:600;
+		font-size:1.3em;
+	}
+	div.section-content{
+		padding-left: 50px;
+		@include breakpoint(xs) {
+			padding-left: 25px;
+		}
+	}
+	main{
+		margin: 0px 77px;
+	}
+	svg {width: 100%;}
+}
+
+// Vertical triple align
+
+.triple-align, .bird-align{
+	display: flex;
+	align-items: flex-start;
+	flex-direction: column;
+}
+.triple-align{
+	justify-content: center;
+
+}
+.bird-align{
+	justify-content: flex-end;
+}
+
+.triple-align-item{
+	// max-width: 50%;
+}
+
+.triple-align-item-top{
+	// align-self: flex-start;
+}
+
+.triple-align-item-bottom{
+	// align-self: flex-end;
+}
+
+// svg#Flying, svg#Standing, svg#Post{
+svg.bird{
+	height: 200px;
+}
+
+.bird-wrapper{
+	height: 300px;
+	margin-top: -150px;
 }
