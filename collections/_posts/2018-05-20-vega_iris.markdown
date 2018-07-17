@@ -3,6 +3,8 @@ layout: post
 title:  "Playing with Vega-Lite and Iris Data"
 date:   2018-05-19 11:38:56 -0400
 categories: coding
+img-src: "/assets/vega-post"
+publish: false
 ---
 <div id="vis"></div>
 

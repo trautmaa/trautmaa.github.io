@@ -1,8 +1,10 @@
 ---
 layout: post
-title:  "Visualization of Data from the Gun Violence Archive"
+title:  "Gun Violence - Georgia"
 date:   2018-05-02 11:38:56 -0400
 categories: coding
+img-src: "/assets/gva-post.png"
+description: "Visualization of gun violence"
 ---
 
 <style>
@@ -15,6 +17,10 @@ categories: coding
         border:solid 1pt;
     }
 </style>
+<p>
+The map shows every incident of gun violence in the state of Georgia since the Gun Violence Archive began collecting data.
+</p>
+
 <!-- <canvas height="300" width="600" id="a"></canvas> -->
 <!-- <div id="graphic"></div> -->
 <script src="https://d3js.org/d3.v4.min.js"></script>

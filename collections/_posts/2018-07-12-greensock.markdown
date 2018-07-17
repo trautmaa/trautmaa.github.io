@@ -1,10 +1,10 @@
 ---
 layout: blank
-title:  "Greensock"
+title:  "Greensock GSAP"
 date:   2018-07-12 11:38:56 -0400
 categories: coding
 publish: true
-description: First steps learning Greensock
+description: "I spent some time learning Greensock to do SVG animations"
 img-src: "/assets/greensock.svg"
 ---
 

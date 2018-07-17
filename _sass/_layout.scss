@@ -40,7 +40,7 @@ a:hover {
 	text-decoration: underline;
 }
 header {
-	padding: 100px 115px;
+	// padding: 100px 115px;
 	// display: flex;
 }
 main {
@@ -49,7 +49,7 @@ main {
 	margin: 0 auto;
 }
 time {
-	color: #898989;
+	// color: #898989;
 }
 .container {
 	max-width: $content-width;
@@ -315,9 +315,9 @@ svg.trout {
 
 .skills-grid{
 	display: grid;
-	grid-template-columns: 33% 33% 33%;
 	grid-auto-rows: 145px;
 	grid-gap: 10px;
+	grid-template-columns: 33% 33% 33%;
 	@include breakpoint(xs) {
 		grid-template-columns: 90vw;
 	}
@@ -359,7 +359,7 @@ svg.trout {
 	border-radius: 10px;
 	}
 	img {
-		height: 150px;
+		height: 125px;
 		margin: auto;
 		display: block;
 		max-width: 75%;
@@ -377,13 +377,16 @@ svg.trout {
 .font-marker{
 	font-family: 'Permanent Marker', cursive;
 }
+.font-link-color{
+	color: $link-color;
+}
 .signature {
 	font-size: 2em;
 }
 
 .icon {
-	height: 75px;
-	width: 75px;
+	height: 30px;
+	width: 30px;
 }
 
 .Skills ul li {
@@ -397,13 +400,18 @@ svg.trout {
 	}
 }
 
+////////////////////////////////////////////////////////////////////////////////////
+// Begin homebody
 .homebody{
 	header{
 		height: 100vh;
-		max-width: 777px;
-		padding: 120px;
+		// max-width: 777px;
+		// padding: 120px;
 		@include breakpoint(xs) {
 			padding: 10px 10px;
+		}
+		.trout{
+			width:100%;
 		}
 	}
 	h1, h2, h3{
@@ -412,26 +420,135 @@ svg.trout {
 	}
 	h2{}
 	h3{}
+	h4{
+		color: $link-color;
+		font-size: 1.2em;
+		margin-bottom: 5px;
+	}
+	.Skills h4{
+		padding-top:0;
+	}
+	h5{
+		margin:0;
+	}
+	.font-400{
+		font-weight:400;
+	}
+
 	section{
-		min-height: 77vh;
+		margin-bottom: 67vh;
+		@include breakpoint(xs) {
+			margin-bottom: 33vh;
+		}	
+		p{
+			// padding-top:15px;
+		}
 	}
 	div.section-title{
 		color: $link-color;
 		text-transform: uppercase;
 		font-weight:600;
 		font-size:1.3em;
+		text-align: center;
 	}
 	div.section-content{
-		padding-left: 50px;
+		margin: auto;
+		width: 90%;
+		max-width: 800px;
 		@include breakpoint(xs) {
 			padding-left: 25px;
 		}
+		p{
+			text-align:center;
+		}
+		.blog-block{
+			p{
+				text-align:left;
+			}		
+		}
 	}
 	main{
-		margin: 0px 77px;
+		// margin: 0px 77px;
 	}
-	svg {width: 100%;}
+	svg.trout {width: 100%;}
+	ul{
+		li{
+			padding-bottom: 0;
+		}
+	}
+	.no-bullets ul{
+		list-style-type: none;
+		padding-left:0;
+	}
+	.small-list li{
+		font-size: 0.8em;
+	}
+	.skills-grid{
+		@include breakpoint(xs) {
+			grid-template-columns: 100%;
+			grid-auto-rows:unset;
+		}	
+	}
+	.experience{
+		display: grid;
+		grid-gap: 10px;
+		grid-template-columns: 70% 30%;
+		margin-top:15px;
+		@include breakpoint(xs) {
+			grid-template-columns: 67% 33%;
+		}	
+		.experience-left{
+
+		}
+		.experience-right{
+			text-align: right;
+		}
+		h4{
+			margin:0px;
+		}
+	}
+	
+	.section-grid{
+		display: grid;
+		grid-template-columns: 30% 70%;
+		@include breakpoint(xs) {
+			grid-template-columns: 100%;
+		}	
+
+	}
+	.skill-item {
+		// border-radius: 1em;
+		// border: solid 1px $link-color;
+		display: inline-block;
+		height: 2em;
+		p {
+			margin-top: 0.2em;
+			font-size: 0.9em;
+			margin-left: .5em;
+			margin-right: .5em;
+			margin-bottom: 0em;
+		}
+	}	
+	.skill-category{
+		font-weight: 600;
+	}
+	.grid{
+		grid-template-columns: 25% 25% 25% 25%;
+	}
+	.grid-30-70{
+		grid-template-columns: 30% 70%;
+		row-gap: 20px;
+	}
+	.Skills{
+		text-align: center;
+	}
+	time{
+		float:right;
+	}
 }
+// End homebody
+////////////////////////////////////////////////////////////////////////////////////
+
 
 // Vertical triple align
 
@@ -449,15 +566,15 @@ svg.trout {
 }
 
 .triple-align-item{
-	// max-width: 50%;
+	max-width: 50%;
 }
 
 .triple-align-item-top{
-	// align-self: flex-start;
+	align-self: flex-start;
 }
 
 .triple-align-item-bottom{
-	// align-self: flex-end;
+	align-self: flex-end;
 }
 
 // svg#Flying, svg#Standing, svg#Post{
@@ -468,4 +585,23 @@ svg.bird{
 .bird-wrapper{
 	height: 300px;
 	margin-top: -150px;
+}
+
+.replay-arrow{
+	height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 15px;
+	left: 15px;
+	fill: $link-color;
+}
+.text-uppercase {
+	text-transform: uppercase;
+}
+.back-arrow{
+	height: 35px;
+    position: absolute;
+    top: 20px;
+	left: 20px;
+	fill: $link-color;
 }

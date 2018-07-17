@@ -3,6 +3,7 @@ layout: post
 title:  "Fun with REGL"
 date:   2018-05-30 11:38:56 -0400
 categories: coding
+publish: false
 ---
 Modifying 3D 'particles' example from [regl.party](http://regl.party/examples)
 
