@@ -1,6 +1,7 @@
 ---
 layout:    section
 title:     "Work Experience"
+slug: "experience"
 ---
 <div class="experience">
     <div class="experience-left">

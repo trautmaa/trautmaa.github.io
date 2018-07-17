@@ -1,15 +1,17 @@
 ---
 layout:    section
-title:     ""
+title:     "Welcome"
+slug: "background"
 ---
 <div class="Background">
     <p>
-    Hi, my name is <b>Alex Trautman</b>, and I do frontend web development and design.</p>
-    <p>
-    I also have a lot of experience teaching and working with teenagers.
+        My name is <b>Alex Trautman</b>, and I do frontend web development and design.
     </p>
     <p>
-    I am a graduate of Northfield, Minnesota’s Carleton College with a Bachelor of Arts in Computer Science.
+        I have three years experience with website development with a recent focus on animation libraries.
+    </p>
+    <p>
+        I am currently based in Atlanta.
     </p>
     <br>
     <div class="grid">

@@ -1,6 +1,7 @@
 ---
 layout:    section
 title:     "Skills"
+slug: "skills"
 ---
 <div class="Skills">
     <p>

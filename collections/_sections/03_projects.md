@@ -1,6 +1,7 @@
 ---
 layout:    section
 title:     "Recent Work"
+slug: "projects"
 ---
 <!-- Begin blog block -->
 
