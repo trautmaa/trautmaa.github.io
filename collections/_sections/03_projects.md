@@ -14,7 +14,11 @@ slug: "projects"
 	</div>
 	<div class="blog-block-grid-item">
 		<h4>
+			{% if post.custom-url %}
+			<a class="font-400" href="{{ post.custom-url }}">
+			{% else %}
 			<a class="font-400" href="{{ post.url | prepend: site.baseurl }}">
+			{% endif %}
 			{{ post.title }}
 			</a>
 			<!-- <time class="font-400">{{ post.date | date: "%b %-d, %Y" }}</time> -->

@@ -64,6 +64,9 @@ slug: "skills"
             <p>Sketch</p>
         </div>
         <div class="skill-item">
+            <p>Git</p>
+        </div>
+        <div class="skill-item">
             <p>InVision</p>
         </div>
         <div class="skill-item">
