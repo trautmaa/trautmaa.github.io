@@ -8,9 +8,12 @@ function toDegrees (angle) {
 
 var canvas = document.getElementById("myCanvas");
 
+var toptubeDiameter = 28.6; // Pacer, value is Front Derailleur Clamp Diameter
+var seatTube = 560; // center of the bottom bracket to the top of the seat tube/top tube junction
+var newSeatTube = seatTube - toptubeDiameter / 2; // center of the bottom bracket to the center of the top tube/seat tube junction
 
 var a = 460, // Chainstay
-    b = 560, // Seat tube
+    b = newSeatTube, // Corrected - see above
     c = 564.5, // Top tube
     d = 152, // Head tube
     e = 390, // Fork length
@@ -22,7 +25,7 @@ var a = 460, // Chainstay
     t = 45; // Fork offset
 
 var constantsArray = [
-    a, b, c, d, e, f, g, h, i, s, t
+    a, b, c, d, e, f, g, h, i, s, t, toptubeDiameter
 ];
 
 // Scale our constants to the canvas using wheelbase as maximum
@@ -31,21 +34,12 @@ width = canvas.width;
 scale = width / g;
 
 // Apply the scale
-([a, b, c, d, e, f, g, h, i, s, t] = [a, b, c, d, e, f, g, h, i, s, t].map(v => v * scale));
+([a, b, c, d, e, f, g, h, i, s, t, toptubeDiameter] = 
+    [a, b, c, d, e, f, g, h, i, s, t, toptubeDiameter]
+    .map(v => v * scale));
 
+////////////////////////
 
-// var a = constantsArray[0], // Chainstay
-//     b = constantsArray[1], // Seat tube
-//     c = constantsArray[2], // Top tube
-//     d = constantsArray[3], // Head tube
-//     e = constantsArray[4], // Fork length
-//     f = constantsArray[5], // BB Bottom bracket drop
-//     g = constantsArray[6], // Wheelbase
-//     h = constantsArray[7], // 
-//     i = constantsArray[8], // Reach
-//     s = constantsArray[9]; // Stack
-
-console.log(constantsArray[0], a)
 
 // Now the rest of the variables should be defined on this same scale
 var y = toRadians(72), // Head tube angle
@@ -85,7 +79,6 @@ point1 = new Point(0, height-f);
 point2 = new Point(k, height-f);
 point3 = new Point(k + r, height-0);
 point4 = new Point(q, height-(f + h));
-pointFloating = new Point(point3.x, -height);
 point5 = new Point(k + r + i, height-(s));
 point6 = new Point(g, height-f);
 point7 = new Point(g - ab - ah, height- (f + ag) );
@@ -106,17 +99,41 @@ circle5.fillColor = 'black';
 circle6.fillColor = 'black';
 circle7.fillColor = 'black';
 
-var rhoLine = new Path.Line(point3, pointFloating);
-rhoLine.rotate(toDegrees(phi), point3);
-rhoLine.strokeColor = 'black';
-
+// Create headtube
 headtubePath = new Path.Line(point5, point7);
 headtubePath.strokeColor = 'black';
 
+// Find point where headtube and toptube intersect
+// 1: Create circle centered on seatpost point with radius of toptube length
+// 2: Create point at intersection
+var topTubeRadius = new Path.Circle(point4, c);
+var point8 = topTubeRadius.getIntersections(headtubePath)[0].point;
+var circle8 = new Path.Circle(point8, 5);
+circle8.fillColor = 'black';
+
+
+// Location lower headtube intersection
+headtubeUpperSegmentLength = point5.getDistance(point8);
+helperHypotenuse = headtubeUpperSegmentLength + af;
+helperX = Math.cos(y) * helperHypotenuse;
+helperY = Math.sin(y) * helperHypotenuse;
+lowerHeadtubeIntersection = new Point(g - ab - helperX, height - (f + helperY) );
+
+point9 = lowerHeadtubeIntersection;
+var circle9 = new Path.Circle(point9, 5);
+circle9.fillColor = 'black';
+
+
+// pointFloating = new Point(point4.x * 2, point4.y);
+// var topTube = new Path.Line(point4, pointFloating);
+// topTube.rotate(toDegrees(phi), point3);
+// topTube.strokeColor = 'black';
+
+
 chainstayPath = new Path.Line(point1, point3);
 seatTubePath = new Path.Line(point4, point3);
-toptubePath = new Path.Line(point4, point5);
-downtubePath = new Path.Line(point7, point3);
+toptubePath = new Path.Line(point4, point8);
+downtubePath = new Path.Line(point9, point3);
 seatstayPath = new Path.Line(point1, point4);
 forkPath = new Path.Line(point7, point6);
 chainstayPath.strokeColor = 'black';
@@ -136,3 +153,7 @@ forkPath.strokeColor = 'black';
 // aPath.add(point4);
 // aPath.fullySelected = 'true';
 // aPath.closed = true;
+
+
+// TODO
+// Account for toptube diameter regarding location of point 4
