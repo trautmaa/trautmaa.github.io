@@ -391,6 +391,14 @@ svg.trout {
 	width: 30px;
 }
 
+.downarrow{
+	width: 35px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	fill: #949494;
+}
+
 .Skills ul li {
 	color: $link-color;
 	padding-bottom: 1em;
@@ -541,6 +549,12 @@ svg.trout {
 		grid-template-columns: 30% 70%;
 		row-gap: 20px;
 	}
+	.grid-three{
+		grid-template-columns: 33% 34% 33%;
+	}
+	.grid-five{
+		grid-template-columns: 20% 20% 20% 20% 20%;
+	}
 	.Skills{
 		text-align: center;
 	}
@@ -606,4 +620,7 @@ svg.bird{
     top: 20px;
 	left: 20px;
 	fill: $link-color;
+}
+#background{
+	padding-top:100px;
 }

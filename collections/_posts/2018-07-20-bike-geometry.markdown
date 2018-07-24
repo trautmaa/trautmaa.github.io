@@ -3,7 +3,7 @@ layout: blank
 title:  "Bike Geometry"
 date:   2018-07-20 01:38:56 -0400
 categories: coding
-publish: true
+publish: false
 description: "Bike Geometry Display Tool"
 img-src: "/assets/react.png"
 ---

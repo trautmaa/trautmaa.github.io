@@ -36,14 +36,15 @@
 // Trout
 var $trout = $('.trout');
 var troutElements = $trout.contents().not('text');
-var length = troutElements.length;
+var delayAmount = 0;
 
 
 function play(){
 
-    var delayAmount = 0;
     var x = 0;
     var y = 0;
+    var length = troutElements.length;
+
 
     // Bring in each element from either side
     troutElements.each(function( index ) {
@@ -61,6 +62,7 @@ function play(){
             TweenLite.from( $( this ), 1, {x: x, y: y, ease: Bounce.easeIn, delay: delayAmount});
         }
         else if ( index % 2 == 0){ // Even
+
             x = "-=" + x;
             y = "-=" + y;  
             TweenLite.from( $( this ), 1, {x: x, y: y, ease: Bounce.easeIn, delay: delayAmount}); // Add y for circle effect
@@ -77,7 +79,32 @@ play();
 
 
 
+///////////////////////////////////////////////////////////////////////
+// Animate header downarrow
 
+// Rotate downarrow when last fish animation completes
+var $downarrow = $(".downarrow");
+TweenLite.to($downarrow, 2,{rotation: 720, delay:delayAmount});
+
+///
+var background = $('#background').offset().top,
+windowBottom = $(this).scrollTop() + $(window).height();
+var $background = $('#background');
+
+// Hide down arrow immediately if window is already showing background section
+if ( windowBottom > (background) ){
+    TweenLite.to($downarrow, 0,{autoAlpha:0});
+}
+
+// Disappear on scroll
+$( window ).on( "scroll", function( event ) {
+    TweenLite.to($(".downarrow"), 1,{autoAlpha:0});
+    // $( this ).off( event );
+  });
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 // function wiggle(){
 //     TweenLite.fromTo($trout, 0.5, {x: "-=5"}, {x: "+=5", ease:RoughEase.ease.config({strength:15, points:7, template:Linear.easeNone, randomize:false}) , clearProps:"x"});
