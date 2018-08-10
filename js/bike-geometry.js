@@ -98,7 +98,7 @@ var circle6 = new Path.Circle(point6, 5);
 var circle7 = new Path.Circle(point7, 5);
 
 circle1.fillColor = 'black';
-circle2.fillColor = 'black';
+// circle2.fillColor = 'black';
 circle3.fillColor = 'black';
 circle4.fillColor = 'black';
 circle5.fillColor = 'black';
@@ -114,7 +114,7 @@ headtubePath = new Path.Line(point5, point7);
 var topTubeRadius = new Path.Circle(point4, l.c);
 var point8 = topTubeRadius.getIntersections(headtubePath)[0].point;
 var circle8 = new Path.Circle(point8, 5);
-circle8.fillColor = 'black';
+// circle8.fillColor = 'black';
 
 
 // Location lower headtube intersection
@@ -127,7 +127,7 @@ lowerHeadtubeIntersection = new Point(l.g - l.ab - helperX, height - (l.f + help
 
 point9 = lowerHeadtubeIntersection;
 var circle9 = new Path.Circle(point9, 5);
-circle9.fillColor = 'black';
+// circle9.fillColor = 'black';
 
 // Assemble paths
 bicycle = {

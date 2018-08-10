@@ -15,7 +15,7 @@ slug: "projects"
 	<div class="blog-block-grid-item">
 		<h4>
 			{% if post.custom-url %}
-			<a class="font-400" href="{{ post.custom-url }}">
+			<a target="_blank" class="font-400" href="{{ post.custom-url }}">
 			{% else %}
 			<a class="font-400" href="{{ post.url | prepend: site.baseurl }}">
 			{% endif %}
