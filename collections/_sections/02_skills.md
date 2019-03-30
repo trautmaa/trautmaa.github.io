@@ -1,44 +1,36 @@
 ---
-layout:    section
-title:     "Skills"
+layout: section
+title: "Skills"
 slug: "skills"
 ---
+
 <div class="Skills">
     <p>
         <div class="skill-item skill-category">
             <p>Skills:</p>
         </div>
         <div class="skill-item">
-            <p>JavaScript</p>
+            <p>React</p>
         </div>
         <div class="skill-item">
-            <p>HTML</p>
+            <p>Typescript</p>
         </div>
         <div class="skill-item">
-            <p>CSS</p>
+            <p>Mobx</p>
         </div>
         <div class="skill-item">
-            <p>MySQL</p>
+            <p>Jest</p>
         </div>
         <div class="skill-item">
-            <p>Python</p>
+            <p>Sass</p>
         </div>
         <div class="skill-item">
-            <p>Bash</p>
-        </div>
-        <div class="skill-item">
-            <p>Ruby on Rails</p>
+            <p>Highcharts</p>
         </div>
     </p>
     <p>
         <div class="skill-item skill-category">
-            <p>Libraries:</p>
-        </div>
-        <div class="skill-item">
-            <p>jQuery</p>
-        </div>
-        <div class="skill-item">
-            <p>Bootstrap</p>
+            <p>Interests:</p>
         </div>
         <div class="skill-item">
             <p>Greensock</p>
@@ -72,31 +64,5 @@ slug: "skills"
         <div class="skill-item">
             <p>Google Analytics</p>
         </div>
-        <div class="skill-item">
-            <p>Wordpress</p>
-        </div>
     </p>
-    <!-- <div class="skills-grid no-bullets">
-        <div>
-            <h4>Libraries</h4>
-            <ul>
-                <li><span>jQuery</span></li>
-                <li><span>Bootstrap</span></li>
-                <li><span>Greensock</span></li>
-                <li><span>D3.js</span></li>
-                <li><span>ReGL</span></li>
-            </ul>
-        </div>
-        <div>
-            <h4>Tools</h4>
-            <ul>
-                <li><span>Adobe Photoshop</span></li>
-                <li><span>Adobe Illustrator</span></li>
-                <li><span>Sketch</span></li>
-                <li><span>InVision</span></li>
-                <li><span>Google Analytics</span></li>
-                <li><span>Wordpress</span></li>
-            </ul>
-        </div>
-    </div> -->
 </div>

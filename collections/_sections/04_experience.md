@@ -1,11 +1,23 @@
 ---
-layout:    section
-title:     "Work Experience"
+layout: section
+title: "Work Experience"
 slug: "experience"
 ---
+
 <div class="experience">
     <div class="experience-left">
-        <a href="https://tnsatlanta.org/">
+        <a target="_blank" href="https://www.honeywell.com/">
+            <h4 class="font-400">Honeywell</h4>
+        </a>
+        <h5 class="font-400">Frontend Engineer</h5>
+    </div>
+    <div class="experience-right">
+        <h4 class="font-400">2018 - Present</h4>
+    </div>
+</div>
+<div class="experience">
+    <div class="experience-left">
+        <a target="_blank" href="https://tnsatlanta.org/">
             <h4 class="font-400">The New School</h4>
         </a>
         <h5 class="font-400">Backend Bootcamp Instructor</h5>
@@ -16,7 +28,7 @@ slug: "experience"
 </div>
 <div class="experience">
     <div class="experience-left">
-        <a href="https://goodienation.org/">
+        <a target="_blank" href="https://goodienation.org/">
             <h4 class="font-400">Village</h4>
         </a>
         <h5 class="font-400">Founder: Goodie Nation Pre-Accelerator</h5>
@@ -27,7 +39,7 @@ slug: "experience"
 </div>
 <div class="experience">
     <div class="experience-left">
-        <a href="http://truenorthwilderness.com/">
+        <a target="_blank" href="http://truenorthwilderness.com/">
             <h4 class="font-400">True North Wilderness Programs</h4>
         </a>
         <h5 class="font-400">Wilderness Therapy Guide</h5>
@@ -38,7 +50,7 @@ slug: "experience"
 </div>
 <div class="experience">
     <div class="experience-left">
-        <a href="https://www.hminet.org/">
+        <a target="_blank" href="https://www.hminet.org/">
             <h4 class="font-400">High Mountain Institute</h4>
         </a>
         <h5 class="font-400">Math Apprentice</h5>
@@ -49,7 +61,7 @@ slug: "experience"
 </div>
 <div class="experience">
     <div class="experience-left">
-        <a href="http://fourcubed.com/">
+        <a target="_blank" href="http://fourcubed.com/">
             <h4 class="font-400">FourCubed</h4>
         </a>
         <h5 class="font-400">Frontend Developer</h5>

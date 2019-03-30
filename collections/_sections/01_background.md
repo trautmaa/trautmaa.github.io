@@ -1,17 +1,12 @@
 ---
-layout:    section
-title:     "Welcome"
+layout: section
+title: "Welcome"
 slug: "background"
 ---
+
 <div class="Background">
     <p>
-        My name is <b>Alex Trautman</b>, and I do frontend web development and design.
-    </p>
-    <p>
-        I have three years experience with website development with a recent focus on animation libraries.
-    </p>
-    <p>
-        I am currently based in Atlanta.
+        My name is <b>Alex Trautman</b>, and I do frontend web development in Atlanta.
     </p>
     <br>
     <div class="grid grid-five">
@@ -34,4 +29,3 @@ slug: "background"
         <div></div>
     </div>
 </div>
-
