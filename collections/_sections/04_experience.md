@@ -5,6 +5,17 @@ slug: "experience"
 ---
 <div class="experience">
     <div class="experience-left">
+        <a href="https://www.honeywell.com/">
+            <h4 class="font-400">Honeywell</h4>
+        </a>
+        <h5 class="font-400">Frontend Engineer</h5>
+    </div>
+    <div class="experience-right">
+        <h4 class="font-400">2018 - Present</h4>
+    </div>
+</div>
+<div class="experience">
+    <div class="experience-left">
         <a href="https://tnsatlanta.org/">
             <h4 class="font-400">The New School</h4>
         </a>
